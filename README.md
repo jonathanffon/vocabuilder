@@ -4,13 +4,9 @@ Review vocabulary
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This flutter project is for reviewing vocabulary by thesaurus.
+Three dictionaries are stored in database, giving detailed information of specified word. The database is made by scripts in "test" directory using text files converted from dictionaries in MDX format.
 
-A few resources to get you started if this is your first Flutter project:
+## Todo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add "import/export" support for customized books.
