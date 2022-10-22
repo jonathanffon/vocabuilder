@@ -1,0 +1,51 @@
+name: vocab
+description: Review vocabulary
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite:
+  path:
+  path_provider:
+  flutter_html:
+  carousel_slider:
+  desktop_window:
+  multi_select_flutter:
+  cupertino_icons: ^1.0.2
+  charset: ^1.1.0
+  sqflite_common: ^2.2.1+1
+  sqflite_common_ffi: ^2.1.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/db/
+  #   - images/a_dot_ham.jpeg
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
